@@ -9,11 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  new_values = []
-  groceries.each do |key, values|
-    #binding.pry
-     #code your solution here!
-     new_values << values 
-  end 
-  new_values.flatten
+    groceries.values.flatten
+  
 end
